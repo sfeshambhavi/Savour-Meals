@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./categoary.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inika:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="categoary">
+      <div class="categoary-inner">
+        <div class="savourmeals-group">
+          <b class="savourmeals4">SavourMeals</b>
+          <div class="select-your-categoary-wrapper">
+            <div class="select-your-categoary">Select your categoary</div>
+          </div>
+        </div>
+      </div>
+      <main class="frame-c">
+        <div class="frame-c-inner">
+          <button class="rectangle-group">
+            <div class="frame-child1" id="rectangle"></div>
+            <div class="ngo">NGO</div>
+          </button>
+        </div>
+        <section class="vector-line">
+          <img
+            class="vector-line-child"
+            loading="eager"
+            alt=""
+            src="./public/rectangle-28.svg"
+          />
+
+          <div class="vector-line-inner">
+            <div class="rectangle-container">
+              <div class="frame-child2" id="rectangle"></div>
+              <div class="pg-owner">PG owner</div>
+            </div>
+          </div>
+          <div class="vector-line-inner1">
+            <div class="frame-parent1">
+              <div class="frame-wrapper1">
+                <div class="category-label-parent">
+                  <div class="category-label" id="categoryLabel"></div>
+                  <div class="organization">Organization</div>
+                </div>
+              </div>
+              <button class="restaurant-title">
+                <div class="organization-info" id="organizationInfo"></div>
+                <div class="restaurant">Restaurant</div>
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script>
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./contact-details.html";
+        });
+      }
+      
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./food-details.html";
+        });
+      }
+      
+      var categoryLabel = document.getElementById("categoryLabel");
+      if (categoryLabel) {
+        categoryLabel.addEventListener("click", function (e) {
+          window.location.href = "./food-details.html";
+        });
+      }
+      
+      var organizationInfo = document.getElementById("organizationInfo");
+      if (organizationInfo) {
+        organizationInfo.addEventListener("click", function (e) {
+          window.location.href = "./food-details.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./contact-details1.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inika:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="contact-details2">
+      <div class="frame-group1">
+        <main class="mobile-no-address-frame">
+          <div class="savourmeals-container">
+            <b class="savourmeals7">SavourMeals</b>
+          </div>
+          <section class="frame-section">
+            <div class="name-frame-parent">
+              <div class="name-frame">
+                <div class="contact-details-list">
+                  <div class="savour-meals-frame">
+                    <h1 class="contact-details3">Contact Details</h1>
+                    <div class="line-vector2">
+                      <img
+                        class="line-vector-child"
+                        loading="eager"
+                        alt=""
+                        src="./public/line-4.svg"
+                      />
+                    </div>
+                  </div>
+                  <input
+                    class="polygon-shape"
+                    placeholder="Name of organization"
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div class="wrapper-polygon-2">
+                <img
+                  class="wrapper-polygon-2-child"
+                  loading="eager"
+                  alt=""
+                  src="./public/polygon-2.svg"
+                />
+              </div>
+            </div>
+            <div class="empty-frame1">
+              <input
+                class="frame-group2"
+                placeholder="Mobile No."
+                type="text"
+              />
+
+              <input class="frame-group3" placeholder="Address" type="text" />
+            </div>
+          </section>
+        </main>
+      </div>
+      <div class="ellipse-vector-wrapper">
+        <div class="ellipse-vector">
+          <img
+            class="ellipse-vector-child"
+            loading="eager"
+            alt=""
+            src="./public/ellipse-10.svg"
+          />
+
+          <div class="contact-info-frame">
+            <div class="mobile-no-input">
+              <div class="address-input">
+                <div class="confirm-donate" id="confirmDonate"></div>
+                <div class="confirm-donation">Confirm Donation</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var confirmDonate = document.getElementById("confirmDonate");
+      if (confirmDonate) {
+        confirmDonate.addEventListener("click", function (e) {
+          window.location.href = "./location.html";
+        });
+      }
+    </script>
+  </body>
+</html>

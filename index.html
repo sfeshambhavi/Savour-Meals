@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inika:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="intro">
+      <div class="frame-container">
+        <img
+          class="frame-container-child"
+          alt=""
+          src="./public/ellipse-5.svg"
+        />
+
+        <div class="ellipse">68%</div>
+      </div>
+      <section class="intro-inner">
+        <div class="frame-parent">
+          <div class="savour-meals-logo-wrapper">
+            <div class="savour-meals-logo">
+              <b class="savourmeals">SavourMeals</b>
+              <div class="text">
+                <div class="call-to-action">
+                  <div class="welcome-to-savourmeals-container">
+                    <p class="welcome-to">Welcome To</p>
+                    <p class="savourmeals1">SavourMeals</p>
+                  </div>
+                  <div class="savourmeals-provides-you-container">
+                    <p class="savourmeals-provides-you">
+                      SavourMeals provides you a platform to share the surplus
+                      food that gets wasted on a daily basis to those who are in
+                      need.
+                    </p>
+                    <p class="blank-line">&nbsp;</p>
+                    <p class="give-a-hand">
+                      Give a hand to save someone’s hunger.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text1">
+            <div class="wrapper-ellipse-4-parent">
+              <div class="wrapper-ellipse-4">
+                <img
+                  class="wrapper-ellipse-4-child"
+                  loading="eager"
+                  alt=""
+                  src="./public/ellipse-4.svg"
+                />
+              </div>
+              <div class="sign-up-log-in">
+                <div class="sign-up" id="signUpText">Sign Up</div>
+              </div>
+              <div class="sign-up-log-in1">
+                <div class="log-in" id="logInText">Log In</div>
+              </div>
+            </div>
+            <div class="food-wastage-in-bangalore-alon-wrapper">
+              <div class="food-wastage-in">
+                Food wastage in Bangalore alone!
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="vector">
+        <div class="association-frame">
+          <div class="your-contribution-counts-container">
+            <p class="your-contribution-counts">Your contribution counts!</p>
+            <p class="make-world-a">Make World a Better place.</p>
+          </div>
+        </div>
+        <footer class="header-frame">
+          <div class="in-association-with">In association with</div>
+          <div class="dhtri-logo">
+            <img
+              class="vector-line-icon"
+              alt=""
+              src="./public/vector-line.svg"
+            />
+
+            <img
+              class="dhtri-1-icon"
+              loading="eager"
+              alt=""
+              src="./public/dhtri-1@2x.png"
+            />
+          </div>
+        </footer>
+      </section>
+    </div>
+
+    <script>
+      var signUpText = document.getElementById("signUpText");
+      if (signUpText) {
+        signUpText.addEventListener("click", function (e) {
+          window.location.href = "./sign-up.html";
+        });
+      }
+      
+      var logInText = document.getElementById("logInText");
+      if (logInText) {
+        logInText.addEventListener("click", function (e) {
+          window.location.href = "./log-in.html";
+        });
+      }
+      </script>
+  </body>
+</html>

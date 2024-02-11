@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./food-details.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inika:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="food-details">
+      <section class="inner-frame">
+        <div class="savour-meals-label">
+          <b class="savourmeals5">SavourMeals</b>
+          <div class="type-food-label">
+            <div class="veg-non-veg-frame">
+              <div class="line-vector">
+                <h3 class="food-details1">Food Details</h3>
+                <div class="type-of-food-label">
+                  <img
+                    class="type-of-food-label-child"
+                    loading="eager"
+                    alt=""
+                    src="./public/line-4.svg"
+                  />
+                </div>
+              </div>
+              <div class="non-veg-frame">
+                <h3 class="type-of-food">Type of food</h3>
+              </div>
+            </div>
+          </div>
+          <div class="empty-frame">
+            <button class="veg-text">
+              <div class="veg-text-child"></div>
+              <div class="veg" id="vEGText">VEG</div>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="circle-frame">
+        <div class="parent-frame-wrapper">
+          <div class="parent-frame">
+            <div class="food-node-parent">
+              <div class="food-node"></div>
+              <div class="food-node1">
+                <div class="food-circle"></div>
+                <img
+                  class="food-1-icon"
+                  loading="eager"
+                  alt=""
+                  src="./public/food-1@2x.png"
+                />
+              </div>
+            </div>
+            <button class="info-dot">
+              <div class="diet-type-indicator" id="dietTypeIndicator"></div>
+              <div class="non-veg">NON VEG</div>
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var vEGText = document.getElementById("vEGText");
+      if (vEGText) {
+        vEGText.addEventListener("click", function (e) {
+          window.location.href = "./contact-details1.html";
+        });
+      }
+      
+      var dietTypeIndicator = document.getElementById("dietTypeIndicator");
+      if (dietTypeIndicator) {
+        dietTypeIndicator.addEventListener("click", function (e) {
+          window.location.href = "./contact-details1.html";
+        });
+      }
+      </script>
+  </body>
+</html>
